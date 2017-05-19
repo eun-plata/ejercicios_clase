@@ -1,0 +1,80 @@
+body,html{
+			width: 100%;
+	        height: 100%;
+	        margin: 0;
+			padding: 0;
+}
+
+#completa{
+	width: 100%;
+	height: 100%;
+	background-color: #dbdbdb;
+}
+
+#header{
+	width: 100%;
+	height: 200px;
+	background: rgba(10,81,163,1);
+	background: -moz-linear-gradient(top, rgba(10,81,163,1) 0%, rgba(10,81,163,1) 32%, rgba(219,219,219,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,81,163,1)), color-stop(32%, rgba(10,81,163,1)), color-stop(100%, rgba(219,219,219,1)));
+	background: -webkit-linear-gradient(top, rgba(10,81,163,1) 0%, rgba(10,81,163,1) 32%, rgba(219,219,219,1) 100%);
+	background: -o-linear-gradient(top, rgba(10,81,163,1) 0%, rgba(10,81,163,1) 32%, rgba(219,219,219,1) 100%);
+	background: -ms-linear-gradient(top, rgba(10,81,163,1) 0%, rgba(10,81,163,1) 32%, rgba(219,219,219,1) 100%);
+	background: linear-gradient(to bottom, rgba(10,81,163,1) 0%, rgba(10,81,163,1) 32%, rgba(219,219,219,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a51a3', endColorstr='#dbdbdb', GradientType=0 );
+
+}
+
+#logo{
+	margin-left: 20px;
+	padding-top: 30px;
+	
+}
+
+#textocabecera{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+
+#cuerpo{
+	width: 80%;
+	height:80%;
+	float:left;
+	background-color: #dbdbdb;
+}
+	
+
+#ladoderecho{
+	width: 20%;
+	height: 80%;
+	float:right;
+	background-color: #dbdbdb;
+}	
+
+.centrardiv {
+	text-align:center;
+}
+
+#piepagina{
+	width: 100%;
+	height: 20%;
+	background-color: #dbdbdb;
+}
+
+div.groove {
+	border-style: groove;
+	width: 40%
+}
+
+.listapie ul{
+	list-style-type: none;
+	
+}
+
+.listapie li{
+	display: inline-block;
+	padding: 10px 12px;
+
+
+}
